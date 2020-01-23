@@ -1,0 +1,64 @@
+@media screen and (max-width:700px){
+  .container {
+    width: 90%;
+  }
+  .fotos{
+    width: 100%;   
+    margin-top: -80px;
+    margin-right: -25px;
+  }
+  #header{
+    display: none;
+  }
+  .fotos .en {
+    display: none;
+  }
+  .fotos .mdl {
+    display: none;
+  }
+  .fotos >i {
+   transform: translateY(200px);   
+  }
+  .first {
+    display: inline-block;
+    margin-bottom: 50px;    
+  }
+  .first li> img {
+    transform: scale(0.8);
+  }
+  .fotos .i {
+    position: fixed;
+  }
+  .fotos .i i {
+    float: right;
+  }
+  .fotos> a {
+    margin-left: -1px;
+  }
+.fotos .google {
+  float: right;
+  margin-right: 50px;
+}
+  .fotos .visa {
+    transform: translate(-625px,40px);
+  }
+  .fotos .fa-heart {
+    position: fixed;
+    padding: 12px;
+    background-color: white;
+    bottom: 0;
+    right: 200px;
+    border-radius: 50%;
+    opacity: 0.7;
+  }
+  .fotos .fa-shopping-basket {
+    position: fixed;
+    padding: 12px;
+    background-color: white;
+    bottom: 0;
+    right: 130px;
+    border-radius: 50%;
+    opacity: 0.7;
+
+  }
+}
